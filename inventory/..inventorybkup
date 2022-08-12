@@ -1,0 +1,24 @@
+host1.tekneed.com ansible_host=host1
+host2.tekneed.com ansible_host=host2
+host3.tekneed.com ansible_host=host3
+host4.tekneed.com ansible_host=host4
+host5.tekneed.com ansible_host=host5
+
+[development]
+host1.tekneed.com
+
+[quality_assurance]
+host2.tekneed.com
+
+[production]
+host3.tekneed.com
+host4.tekneed.com
+
+[security]
+host5.tekneed.com
+
+[webserver]
+192.168.1.21[1:2]
+
+[hpc_servers:children]
+security
