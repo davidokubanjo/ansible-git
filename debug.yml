@@ -1,0 +1,7 @@
+---
+- name: trying debug from git
+  hosts: production
+  tasks:
+    - name: debug from git
+      debug:
+        msg: debug added from git
