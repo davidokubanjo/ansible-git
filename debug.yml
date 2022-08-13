@@ -4,4 +4,4 @@
   tasks:
     - name: debug from git
       debug:
-        msg: debug added from git
+        msg: TODAY is Saturday
