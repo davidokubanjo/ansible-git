@@ -1,0 +1,5 @@
+webpackages:
+  - httpd
+  - mariadb
+  - php
+  - nginx
