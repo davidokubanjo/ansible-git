@@ -5,3 +5,10 @@
     - name: debug from git
       debug:
         msg: TODAY is Saturday
+
+    - name: install applications
+      yum:
+        name: "{{ webpackages }}"
+        state: present
+
+  
